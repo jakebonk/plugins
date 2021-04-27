@@ -20,9 +20,13 @@ dependencies:
     sdk: flutter
   flutter_plugin_android_lifecycle: ^1.0.0
   image_picker_platform_interface:
-    path: "../image_picker_platform_interface"
+    git:
+      url: git://github.com/jakebonk/plugins
+      path: packages/image_picker_platform_interface
   image_picker_for_web:
-    path: "../image_picker_for_web"
+    git:
+      url: git://github.com/jakebonk/plugins
+      path: packages/image_picker_for_web
 
 dev_dependencies:
   flutter_test:
